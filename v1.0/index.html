@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 640px)" href="./css/pc.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="./css/yd.css">
+    <script async src="./js/regular.js"></script>
+    <script async src="./js/animaldata.js"></script>
+    <script async src="./js/main.js"></script>
+    <title>arkData</title>
+</head>
+<body>
+    <div id="root">
+        <div class="nav">
+            <select name="sort" id="sort">
+                <option value="default">默认</option>
+                <option value="hp">按照生命(训起时)</option>
+                <option value="at">按照攻击力(训起时)</option>
+                <option value="tat">按照实测伤害(训起时)</option>
+                <option value="fz">按照负重(训起时)</option>
+                <option value="level">按照等级(训起时)</option>
+                <option value="speed">按照速度(训起时)</option>
+                <option value="nl">按照耐力(训起时)</option>
+                <option value="yq">按照氧气(训起时)</option>
+                <option value="food">按照食量(训起时)</option>
+            </select>
+            <button class="sortBtn">排序</button>
+            <select name="group" id="group">
+                <option value="default">物种分类</option>
+                <option value="巨鹰">巨鹰</option>
+                <option value="霸王龙">霸王龙</option>
+                <option value="熊">熊</option>
+                <option value="大地懒">大地懒</option>
+                <option value="翼龙">翼龙</option>
+            </select>
+        </div>
+        <div class="mian"></div>
+    </div>
+</body>
+</html>
